@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Gerecht toevoegen</title>
+    
+</head>
+
+<body>
+    <a href="../../clsGerechten.php">Home</a>
+    <br>
+    <br>
+ 	
+    <form action="add.php" method="post" name="form2">
+              
+	<div>Gerechtsoort:          
+			<select name="gerechtcode">
+			<option value="vls">Vlees</option>
+  			<option value="veg">Vegetarisch</option>
+  			<option value="vis">Vis</option>
+  			<option value="drn">Drank</option>
+            </select> 
+     </div>   
+ 	<table width="25%" border="0"> 
+			 <tr> 
+                <td>Menuitem naam</td>
+                <td><input type="text" name="menuitem"></td>
+            </tr>
+            
+			<tr> 
+                <td>Individuele prijs</td>
+                <td><input type="text" name="prijs"></td>
+            </tr>
+            
+
+            <tr> 
+                <td></td>
+                <td><input type="submit" name="Submit" value="Add"></td>
+            </tr>
+            
+        </table>
+   </form> 
+</body>
+</html>

@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Reservering toevoegen</title>
+    
+</head>
+
+<body>
+    <a href="../../clsReserveringen.php">Home</a>
+    <br>
+    <br>
+ 	
+    <form action="add.php" method="post" name="form2">
+ 
+
+            <div>Klantnaam:          
+				<select name="Klantid">
+					<option value="1">Janssen</option>
+  					<option value="2">Janse</option>
+  					<option value="3">Test</option>
+  					<option value="4">Pietersen</option>
+  					<option value="5">Boodaart</option>
+  					<option value="6">Van den Ouden</option>
+            	</select> 
+     		</div> 
+
+ 	<table width="25%" border="0"> 
+			 <tr> 
+                <td>Datum (jaar-maand-dag)</td>
+                <td><input type="text" name="Datum"></td>
+            </tr>
+            
+			<tr> 
+                <td>Tijd</td>
+                <td><input type="text" name="Tijd"></td>
+            </tr>
+            
+      		<tr> 
+                <td>Aantal personen</td>
+                <td><input type="text" name="Personen"></td>
+            </tr>
+            
+        </table>
+        
+     		
+     	
+     		
+     		<div>Tafel:          
+				<select name="Tafel">
+					<option value="1">Tafel 1</option>
+  					<option value="2">Tafel 2</option>
+  					<option value="3">Tafel 3</option>
+  					<option value="4">Tafel 4</option>
+            	</select> 
+     		</div> 
+     		
+     		
+     		
+     		<div>Gereserveerd?          
+				<select name="Reservatie">
+					<option value="Ja">Ja</option>
+  					<option value="Nee">Nee</option>
+            	</select> 
+     		</div> 
+     		
+     		<br />
+
+     		
+<input type="submit" name="Submit" value="Add">
+   </form> 
+</body>
+</html>

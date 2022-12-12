@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>Bestelling toevoegen</title>
+    
+</head>
+
+<body>
+    <a href="../../clsBestellingen.php">Home</a>
+    <br>
+    <br>
+ 	
+    <form action="add.php" method="post" name="form2">
+
+            <div>Menuitem:          
+				<select name="Menuitemcode">
+					<option value="1">Kipfilet</option>
+  					<option value="2">Spruiten</option>
+  					<option value="3">Spareribs</option>
+  					<option value="4">Gehaktballetjes</option>
+  					<option value="5">Steak</option>
+  					<option value="6">Mountain Ew</option>
+  					<option value="7">Sardientjes</option>
+            	</select> 
+     		</div> 
+
+ 	<table width="25%" border="0"> 
+			 <tr> 
+                <td>Datum (jaar-maand-dag)</td>
+                <td><input type="text" name="Datum"></td>
+            </tr>
+            
+       		<tr> 
+                <td>Tijd</td>
+                <td><input type="text" name="Tijd"></td>
+            </tr>
+
+            
+			<tr> 
+                <td>Aantal gerechten</td>
+                <td><input type="text" name="Aantal"></td>
+            </tr> 
+            
+			<tr> 
+                <td>Prijs</td>
+                <td><input type="text" name="Prijs"></td>
+            </tr>            
+           
+            <tr> 
+                <td>Contantgeld Klant</td>
+                <td><input type="text" name="Contant"></td>
+            </tr>     
+        </table>
+        
+     		<div>Tafel:          
+				<select name="Tafel">
+					<option value="1">Tafel 1</option>
+  					<option value="2">Tafel 2</option>
+  					<option value="3">Tafel 3</option>
+  					<option value="4">Tafel 4</option>
+            	</select> 
+     		</div> 
+     		
+     		
+     		<br>
+
+     		
+<input type="submit" name="Submit" value="Add">
+   </form> 
+</body>
+</html>
